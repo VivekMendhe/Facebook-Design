@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6db0337a3.js" crossorigin="anonymous"></script>
+    <title>SocialBook</title>
+</head>
+
+<body>
+
+    <!-- Nav-Bar -->
+    <nav>
+        <div class="nav-left">
+            <img src="Socialbook_img/logo.png" alt="logo_img" class="logo">
+            <ul>
+                <li><img src="Socialbook_img/notification.png" alt="notification_img"></li>
+                <li><img src="Socialbook_img/inbox.png" alt="notification_img"></li>
+                <li><img src="Socialbook_img/video.png" alt="notification_img"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="Socialbook_img/search.png" alt="search_img">
+                <input type="text" name="" id="" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="Socialbook_img/profile-pic.png" alt="profile-pic_img">
+            </div>
+        </div>
+
+        <!-- Settings Menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+
+
+                <div class="user-profile">
+                    <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                    <div>
+                        <p>John Nicolson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="user-profile">
+                    <img src="Socialbook_img/feedback.png" alt="profile_img">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="settings-links">
+                    <img src="Socialbook_img/setting.png" alt="setting_img" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="Socialbook_img/arrow.png" alt="arrow_img" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="Socialbook_img/help.png" alt="setting_img" class="settings-icon">
+                    <a href="#">Help & Support <img src="Socialbook_img/arrow.png" alt="arrow_img" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="Socialbook_img/display.png" alt="setting_img" class="settings-icon">
+                    <a href="#">Display & Accessability <img src="Socialbook_img/arrow.png" alt="arrow_img" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="Socialbook_img/logout.png" alt="setting_img" class="settings-icon">
+                    <a href="#">Logout <img src="Socialbook_img/arrow.png" alt="arrow_img" width="10px"></a>
+                </div>
+
+            </div>
+        </div>
+        <!-- End of Settings Menu -->
+
+    </nav>
+    <!-- End of Nav-Bar -->
+
+    <div class="container">
+        <!-- left-side-bar -->
+        <div class="left-side-bar">
+            <div class="imp-links">
+                <a href="#"><img src="Socialbook_img/news.png" alt="news_img">Latest News</a>
+                <a href="#"><img src="Socialbook_img/friends.png" alt="news_img">Friends</a>
+                <a href="#"><img src="Socialbook_img/group.png" alt="news_img">Group</a>
+                <a href="#"><img src="Socialbook_img/marketplace.png" alt="news_img">Marketplace</a>
+                <a href="#"><img src="Socialbook_img/watch.png" alt="news_img">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="Socialbook_img/shortcut-1.png" alt="img">Web Developers</a>
+                <a href="#"><img src="Socialbook_img/shortcut-2.png" alt="img">Web Design Course</a>
+                <a href="#"><img src="Socialbook_img/shortcut-3.png" alt="img">Full Stack Development</a>
+                <a href="#"><img src="Socialbook_img/shortcut-4.png" alt="img">Website Experts</a>
+            </div>
+        </div>
+        <!-- End of left-side-bar -->
+
+        <!-- main-side-bar -->
+        <div class="main-side-bar">
+
+            <div class="story-gallery">
+                <div class="story story-1">
+                    <img src="Socialbook_img/upload.png" alt="upload_img">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story-2">
+                    <img src="Socialbook_img/member-1.png" alt="upload_img">
+                    <p>Alison</p>
+                </div>
+
+                <div class="story story-3">
+                    <img src="Socialbook_img/member-2.png" alt="upload_img">
+                    <p>Jack</p>
+                </div>
+
+                <div class="story story-4">
+                    <img src="Socialbook_img/member-3.png" alt="upload_img">
+                    <p>Barbie</p>
+                </div>
+
+                <div class="story story-5">
+                    <img src="Socialbook_img/member-4.png" alt="upload_img">
+                    <p>James </p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                    <div>
+                        <p>John Nicolson</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea name="" id="" cols="" rows="3" placeholder="What's on your mind, John?"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="Socialbook_img/live-video.png" alt="link_img">Live Video</a>
+                        <a href="#"><img src="Socialbook_img/photo.png" alt="link_img">Photo Video</a>
+                        <a href="#"><img src="Socialbook_img/feeling.png" alt="link_img">feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@JavaTechPoint</span> YouTube channel to watch more videos on website development and Backend Developers <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-1.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends, tag <span>@JavaTechPoint</span> facebook page on your post. Ask your doubts in the comments <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-2.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@JavaTechPoint</span> YouTube channel to watch more videos on website development and Backend Developers <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-3.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@JavaTechPoint</span> YouTube channel to watch more videos on website development and Backend Developers <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-3.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@JavaTechPoint</span> YouTube channel to watch more videos on website development and Backend Developers <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-4.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img">
+                        <div>
+                            <p>John Nicolson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@JavaTechPoint</span> YouTube channel to watch more videos on website development and Backend Developers <a href="#">#JavaTechPoint</a> <a href="#">#YouTubeChannel</a></p>
+
+                <img src="Socialbook_img/feed-image-5.png" alt="feed_img" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+                        <div><img src="Socialbook_img/like-blue.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/comments.png" alt="img"> 120</div>
+                        <div><img src="Socialbook_img/share.png" alt="img"> 120</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png" alt="profile_img"> <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+        <!-- End of main-side-bar -->
+
+        <!-- right-side-bar -->
+        <div class="right-side-bar">
+
+            <div class="side-bar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="side-bar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="Socialbook_img/advertisement.png" alt="" class="side-bar-adds">
+
+            <div class="side-bar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-1.png" alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-2.png" alt="">
+                </div>
+                <p>Johnny Deep</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-3.png" alt="">
+                </div>
+                <p>Tony Stark</p>
+            </div>
+
+
+        </div>
+        <!-- End of right-side-bar -->
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <p>&copy; Copyright 2021 - JavaTechPoint YouTube Channel</p>
+    </div>
+
+    <!-- End of Footer -->
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <!-- End of JavaScript -->
+</body>
+
+</html>
